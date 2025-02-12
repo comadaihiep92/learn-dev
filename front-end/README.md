@@ -4,9 +4,9 @@
 - init du an vao folder front-end
 - push len repo
 
-- config ssh
-ssh-keygen -t ed25519 -C "tranteo25299@gmail.com" -f ~/.ssh/teo-ssh
-cat /c/Users/PC/.ssh/teo-ssh.pub
-eval $(ssh-agent -s)
-ssh-add ~/.ssh/teo-ssh.pub
-ssh -T git@github.com
+# config ssh
+- ssh-keygen -t ed25519 -C "tranteo25299@gmail.com" -f ~/.ssh/teo-ssh
+- cat /c/Users/PC/.ssh/teo-ssh
+- eval $(ssh-agent -s)
+- ssh-add ~/.ssh/teo-ssh
+- ssh -T git@github.com
