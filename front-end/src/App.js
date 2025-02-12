@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Recently from './components/Recently';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <Recently />
       </header>
     </div>
   );
