@@ -1,6 +1,6 @@
 import { Button } from "antd"
 import {ArrowRightOutlined } from "@ant-design/icons"
-import "../css/receiver.css"
+import "../css/Recently.scss"
 
 function Recently() {
     return (
